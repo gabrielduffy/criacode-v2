@@ -3,9 +3,10 @@
   "version": "2.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "start": "npm install && npx vite preview --port 3000 --host --config ./vite.config.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "start": "vite preview --host 0.0.0.0 --port 3000"
   },
   "dependencies": {
     "react": "^18.2.0",
